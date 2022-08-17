@@ -7,6 +7,7 @@ Repositorio do curso de Python para Segurança da Informação
 - O que é a Linguagem Python e suas caracteristicas?
 - Entrada e Saida de Dados
 - Váriaveis e seus tipos
+- Strings e Bytearray
 - Operadores Lógicos
 - Calculos com Python
 - Estrutura de Laço
@@ -22,8 +23,25 @@ Repositorio do curso de Python para Segurança da Informação
 - Exceção e tratamento de erros
 - Programação Orientada a Objetos
 - Manipulação de Arquivos
-- Criação de banco de dados
+- Programação assincrona
+- Expressão regular básica
 
 ## Módulo 3
 
-- 
+- Analise de Logs com Python
+- Manipulando sua rede com Scapy
+- Biblioteca Socket
+- Criando um simples portscanner
+- Componentes de um Backdoor
+- Criando um executável com Py2exe
+- Criando um script de Brute Force HTTP
+- Criando um Script de Brute Force para ZIP
+- Criando seu primeiro Keylogger
+
+## Módulo 4
+- Criando um Simples Fuzzing
+- Criando um Web Crawler
+- Criando um simples Ransomware
+- Criando um simples disassembler
+- Criando um simples PE Scan
+### Python Challenge
