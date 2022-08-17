@@ -39,9 +39,13 @@ Repositorio do curso de Python para Segurança da Informação
 - Criando seu primeiro Keylogger
 
 ## Módulo 4
-- Criando um Simples Fuzzing
+- Criando um Simples Fuzzing Web
 - Criando um Web Crawler
 - Criando um simples Ransomware
 - Criando um simples disassembler
 - Criando um simples PE Scan
-### Python Challenge
+- Criando um Fuzzing para Buffer Overflow
+
+## Módulo 5
+- Usando o Tkinter para criar interfaces gráficas
+- 
