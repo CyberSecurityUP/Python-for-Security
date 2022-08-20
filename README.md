@@ -61,7 +61,7 @@ Repositorio do curso de Python para Segurança da Informação
 ## Certified Red Team Python Analyst (CRPYA)
 
 Rules:
-- Use your Python skills to solve the challenges below, don't forget to submit the scripts for further review. You will receive a Download link with files for your practices.
+Use your Python skills to solve the challenges below, don't forget to submit the scripts for further review. You will receive a Download link with files for your practices.
 
 1. Create a script to decode the following base64 (YjRzMzY0X3MzY3IzdEZsNGc=) - 10 Points
 2. Generate an encrypted RSA using a written 512 key 'RSA_Flag_Secret' and print the decode - 20 Points
@@ -69,4 +69,4 @@ Rules:
 4. Create a script that disassembler chall.elf files - 20 Points
 5. Create a script that does Brute Force attacks on HTTP forms - 20 Points
 
-- Bonus: Create a script that does at least 3 challenges functions. - 50 Points 
+Bonus: Create a script that does at least 3 challenges functions. - 50 Points 
