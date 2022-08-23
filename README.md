@@ -68,5 +68,7 @@ Use your Python skills to solve the challenges below, don't forget to submit the
 3. Create a script to filter using Regex URL, IP Address in sample_log.log - 30 Points
 4. Create a script that disassembler chall.elf files - 20 Points
 5. Create a script that does Brute Force attacks on HTTP forms - 20 Points
+6. Create a simple backdoor with client and server - 20 Points
+7. Create a simple keylogger the way you want, capturing something specific or not - 20 Points
 
 Bonus: Create a script that does at least 3 challenges functions. - 50 Points 
