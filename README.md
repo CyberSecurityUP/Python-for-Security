@@ -4,7 +4,7 @@ Repositorio do curso de Python para Segurança da Informação
 
 ## Módulo 1 
 
-- O que é a Linguagem Python e suas caracteristicas?
+- Linguagem Python e suas caracteristicas
 - Entrada e Saida de Dados
 - Váriaveis e seus tipos
 - Strings e Bytearray
