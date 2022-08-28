@@ -7,7 +7,6 @@ Repositorio do curso de Python para Segurança da Informação
 - Linguagem Python e suas caracteristicas
 - Entrada e Saida de Dados
 - Váriaveis e seus tipos
-- Strings e Bytearray
 - Operadores Lógicos
 - Calculos com Python
 - Estrutura de Laço
