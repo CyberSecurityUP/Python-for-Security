@@ -1,0 +1,8 @@
+123
+12142
+admin
+password
+test
+resident
+msfadmin
+password
