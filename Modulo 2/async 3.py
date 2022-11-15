@@ -1,26 +1,26 @@
-#import asyncio
+import asyncio
 
-#async def ola_mundo():
- #  print('Olá ...')
-  # await asyncio.sleep(1)
-  # print('... Mundo!')
+async def ola_mundo():
+  print('Olá ...')
+  await asyncio.sleep(1)
+  print('... Mundo!')
 
-#asyncio.run(ola_mundo())
+asyncio.run(ola_mundo())
 
 
-#import aiohttp
-#import asyncio
+import aiohttp
+import asyncio
 
-#async def main():
+async def main():
 
-#    async with aiohttp.ClientSession() as session:
+    async with aiohttp.ClientSession() as session:
 
- #       pokemon_url = 'https://pokeapi.co/api/v2/pokemon/1'
-  #      async with session.get(pokemon_url) as resp:
-   #         pokemon = await resp.json()
-    #        print(pokemon['name'])
+        pokemon_url = 'https://pokeapi.co/api/v2/pokemon/1'
+        async with session.get(pokemon_url) as resp:
+            pokemon = await resp.json()
+            print(pokemon['name'])
 
-#asyncio.run(main())
+asyncio.run(main())
 
 #Neste código, é criada uma corrotina chamada main, que está sendo
 #executada com o loop de eventos asyncio. Aqui, estamos iniciando
@@ -30,25 +30,25 @@
 #Com esta sessão, estamos fazendo
 #uma solicitação à API Pokémon e aguardando uma resposta.
 
-#import aiohttp
-#import asyncio
-#import time
+import aiohttp
+import asyncio
+import time
 
-#start_time = time.time()
+start_time = time.time()
 
 
-#async def main():
+async def main():
 
- #   async with aiohttp.ClientSession() as session:
+    async with aiohttp.ClientSession() as session:
 
-  #      for number in range(1, 151):
-    #        pokemon_url = f'https://pokeapi.co/api/v2/pokemon/{number}'
-   #         async with session.get(pokemon_url) as resp:
-     #           pokemon = await resp.json()
-      #          print(pokemon['name'])
+        for number in range(1, 151):
+            pokemon_url = f'https://pokeapi.co/api/v2/pokemon/{number}'
+            async with session.get(pokemon_url) as resp:
+                pokemon = await resp.json()
+                print(pokemon['name'])
 
-#asyncio.run(main())
-#print("--- %s seconds ---" % (time.time() - start_time))
+asyncio.run(main())
+print("--- %s seconds ---" % (time.time() - start_time))
 
 #Desta vez, também vamos calcular a duração de todo processo.
 
