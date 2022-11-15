@@ -17,7 +17,7 @@ async def main():
 #await: A segunda significa que a corrotina será paralisada naquele ponto aguardando um resultado futuro. Em outras palavras, 
 #o controle de execução será dado à outra corroutina e só será retomado quando o resultado ficar pronto.
             print("Body:", html[:15], "...")
-#Por fim ele mostra o tipo de conteudo e especificamente a linha numero 15
+#Por fim ele mostra o tipo de conteudo e especificamente a linha numero 15, posso colocar para ele mostrar da linha 5:15 e ignorar os 5 primeiros digitos
 
 # Por fim, executamos  asyncio.run(main()) , isso cria um loop de eventos e executa todas as tarefas dentro dele.
 #Depois que todas as tarefas forem concluídas, o loop de eventos será destruído automaticament
