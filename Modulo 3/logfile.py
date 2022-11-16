@@ -12,6 +12,11 @@ cpf="412.111.210-03"
 #Para deixar claro que o ponto deve ser ponto apenas, é preciso escapar o caractere com \. Assim temos:
 cpfreg = "\d{3}\.\d{3}\.\d{3}\-\d{2}"
 
+#Retorna todas as correspondências não sobrepostas do padrão em string , como uma lista de strings ou tuplas. 
+#A string é verificada da esquerda para a direita e as correspondências são retornadas na ordem encontrada. 
+#Correspondências vazias são incluídas no resultado.
+
+
 cpf_find = re.findall(cpfreg, cpf)
 
 print(cpf_find, "\n")
