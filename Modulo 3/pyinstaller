@@ -1,0 +1,40 @@
+pyinstaller --onefile pythonScriptName.py
+
+
+O myscript.specarquivo contém a maioria das informações fornecidas pelas opções que foram especificadas quando pyinstaller (ou pyi-makespec ) 
+foi executado com o arquivo de script como argumento. Normalmente, você não precisa especificar nenhuma opção ao executar o pyinstaller com o arquivo de especificação. 
+Apenas algumas opções de linha de comando têm efeito ao compilar a partir de um arquivo de especificação.
+
+
+-D, --onedir
+Crie um pacote de uma pasta contendo um executável (padrão)
+
+-F, --onefile
+Crie um executável agrupado de um arquivo.
+
+--specpath DIR 
+Pasta para armazenar o arquivo de especificação gerado (padrão: diretório atual)
+
+-n NOME , --nome NOME 
+Nome a ser atribuído ao aplicativo integrado e ao arquivo de especificação (padrão: nome base do primeiro script)
+
+
+Esta opção requer o nome do pacote que você deseja incluir em seu executável. 
+Por exemplo, se seu projeto importou a biblioteca de solicitações dentro de uma função, o PyInstaller não incluiria automaticamente requestsem seu executável. 
+Você pode usar o seguinte comando para forçar requestsa inclusão:
+
+$ pyinstaller cli.py --hiddenimport=requests
+
+
+--exclude-module
+
+Excluir alguns módulos de serem incluídos com seu executável
+
+$ pyinstaller cli.py --exclude-module=pytest
+
+Conforme mencionado anteriormente, você pode reutilizar o .specarquivo gerado automaticamente para personalizar ainda mais seu executável. 
+O .specarquivo é um script Python regular que usa implicitamente a API da biblioteca PyInstaller.
+
+
+
+
