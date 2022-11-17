@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#Bibliotecas 
+#Biblioteca da API
 from burp import IBurpExtender
 # Biblioteca para fazer comunicação HTTP
 from burp import IHttpListener
@@ -11,6 +11,7 @@ HOST_FROM = "127.0.0.1"
 # definir o host de destino
 HOST_TO = "www.google.com"
 
+#Criando duas funçõe com o nomes das bibliotecas para implementa-las
 class BurpExtender(IBurpExtender, IHttpListener):
 
     #
@@ -24,7 +25,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
         # definir o nome da extensão
         callbacks.setExtensionName("Traffic redirector")
 
-        # habilitar o modo Debuger
+        # habilitar o modo Debuger para coletar erros o stdout coleta entrada e saida de erros
         self.stdout = PrintWriter(callbacks.getStdout(), True);
         self.stdout.println("DEBUG: Habilitado!")
         
@@ -43,7 +44,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
             self.stdout.println("Debug: Essa mensagem não é uma requisicao, parando processo")
             return
 
-        # obter o serviço HTTP para a solicitação
+        # obter o serviço HTTP para a solicitação e trazer informações
         httpService = messageInfo.getHttpService()
         self.stdout.print("Debug: httpservice ")
         self.stdout.println(httpService)
@@ -56,7 +57,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
         
         # se o host for HOST_FROM, mude para HOST_TO, ele vai usar o iHTTPListener para fazer o redirecionamento, abaixo vamos configurar todo processo
         if (HOST_FROM == httpService.getHost()):
-            self.stdout.println("Debug: HOST_TO and HOST_FROM are the same server")
+            self.stdout.println("Debug: HOST_TO and HOST_FROM são o mesmo servidor")
             # construindo um listener http e fazendo o redirect
             messageInfo.setHttpService(self._helpers.buildHttpService(HOST_TO,
                 httpService.getPort(), httpService.getProtocol()))
