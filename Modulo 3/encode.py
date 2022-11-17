@@ -22,6 +22,7 @@
 #Muitas vezes usamos os códigos de 128 a 255 para os acentos, mas os códigos são diferentes de um país para outro. 
 #Nada prático para trocar documentos. Assim, foi preciso encontrar um código mais prático: o UNICODE.
 
+# -*- coding: latin-1 -*-
 
 string = "joas"
 print(string.encode())
