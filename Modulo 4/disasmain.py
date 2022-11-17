@@ -1,4 +1,4 @@
-#pip install elffile
+#pip install pyelftools
 # import os modulos ELFFile para analisar arquivos ELF
 from elftools.elf.elffile import ELFFile
 # E o modulo capstone que ajuda no disassembler
