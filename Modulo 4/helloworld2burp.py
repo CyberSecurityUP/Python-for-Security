@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Todas as extensões devem implementar esta interface.
 # As implementações devem ser chamadas de BurpExtender, no pacote burp, devem ser declaradas públicas e devem fornecer um construtor padrão (público, sem argumentos).
 from burp import IBurpExtender
