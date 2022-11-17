@@ -26,3 +26,5 @@ while True:
     # usar um encoding para definir o formato de caracteres a ser inserido no socket
     output = output.decode(encoding='iso8859-1')
     print(f"Output: {output}")
+
+# iso8859-1 ISO/IEC 8859-1 é o conjunto de caracteres padrão da Maioria dos navegadores.  conhecido como latin-1 é um padrão de caracteres latino amplamente utilizado
