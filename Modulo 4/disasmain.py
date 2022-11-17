@@ -12,13 +12,13 @@ with open('.\test.elf', 'rb') as f:   #change the file name to what you are perf
     # coleta seção .text que retorna os trechos relacionados a código
     code = elf.get_section_by_name('.text')
     # é a referência à instrução que um determinado processador possui para conseguir realizar determinadas tarefas.
-    ops = code.data()                 # returns a bytestring with the opcodes
+    ops = code.data()                 # retorna uma bytestring com os opcodes
     # Se esta seção aparecer na imagem de memória de um processo, este membro contém o endereço no qual o primeiro byte da seção deve residir.
-    addr = code['sh_addr']            # starting address of `.text`
+    addr = code['sh_addr']            # endereço inicial de `.text`
     # Definição da arquitetura da aplicação, seja ela compilada em x86 ou x64
     md = Cs(CS_ARCH_X86, CS_MODE_64)
-    for i in md.disasm(ops, 0x7aa):    # looping through each opcode
+    for i in md.disasm(ops, 0x7aa):    #  percorrendo cada opcode
         # Aqui ele vai trazer opcodes, seja endereços de memória
 # mnemônicos são usados ​​para especificar um opcode que representa uma instrução de linguagem de máquina completa e operacional
 # Por fim a representação do objeto
-        print(f"0x{i.address:x}:\t{i.mnemonic}\t{i.op_str}")
+        print(f"0x{i.address:x}:\t{i.mnemonic}\t{i.op_str}") #retornando cada opcode, endereço, string e menomonic que são as instruções
