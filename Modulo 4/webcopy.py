@@ -14,4 +14,6 @@ save_webpage(
     # **kwargs é argumentos nomeados
     # permitem que você passe um número não especificado de argumentos para uma função.
     #Dessa forma, ao escrever uma função, você não precisa definir quantos argumentos serão passados para sua função.
+ #O **kwargs possibilita verificarmos os parâmetros nomeados da função, isto é, aqueles parâmetros que são passados com um nome!
+#Eles estarão disponíveis como um dicionário ({'chave': 'valor'}) dentro da função.
 )
