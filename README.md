@@ -1,60 +1,61 @@
 # Python-for-Security
 
-Repositorio do curso de Python para Segurança da Informação
+Python Course Repository for Information Security
 
-## Módulo 1 
+## Module 1 
 
-- Linguagem Python e suas caracteristicas
-- Entrada e Saida de Dados
-- Váriaveis e seus tipos
-- Operadores Lógicos
-- Calculos com Python
-- Estrutura de Laço
-- Estrutura de Condição
-- Lista e dicionários
+- Python language and its characteristics
+- Data input and output
+- Variables and their types
+- Logical Operators
+- Calculations with Python
+- Loop Structure
+- Condition Structure
+- List and dictionaries
 
-## Módulo 2
+## Module 2
 
-- Funções 
+- Functions
 - Classes
-- Exceção e tratamento de erros
-- Programação Orientada a Objetos
-- Entendo Pip
-- Bibliotecas básicas
-- Manipulação de Arquivos
-- Programação assincrona
-- Enviando e-mails com SMTPLib
+- Exception and error handling
+- Object Oriented Programming
+- I understand Pip
+- Basic libraries
+- File Manipulation
+- Asynchronous programming
+- Sending emails with SMTPLib
 
 
-## Módulo 3
+## Module 3
 
-- Expressão regular básica
-- Analise de Logs com Python
-- Manipulando sua rede com Scapy
-- Biblioteca Socket
-- Criando um simples portscanner
-- Criando um executável com Py2exe
-- Criando um script de Brute Force HTTP
-- Criando um Script de Brute Force para ZIP
-- Criando seu primeiro Keylogger
+- basic regular expression
+- Log analysis with Python
+- Manipulating your network with Scapy
+- socket library
+- Creating a simple portscanner
+- Creating an executable with Py2exe
+- Creating a Brute Force HTTP script
+- Creating a Brute Force Script for ZIP
+- Creating your first Keylogger
 
-## Módulo 4
-- Criando um Simples Fuzzing Web
-- Criando um Web Crawler
-- Jython e Burp Suite
-- Criando um plugin básico para o Burp Suite
-- Criando um Fuzzing para Buffer Overflow
-- Criando um simples Ransomware
-- Criando um simples disassembler
+## Module 4
+- Creating a Simple Fuzzing Web
+- Creating a Web Crawler
+- Jython and Burp Suite
+- Creating a basic plugin for the Burp Suite
+- Creating a Fuzzing for Buffer Overflow
+- Creating a simple Ransomware
+- Creating a simple disassembler
 
-## Módulo 5
-- Usando o Tkinter para criar interfaces gráficas
-- Criando um simples PE Scan
-- Criando um simples backdoor
-- Executando um shellcode com Python e MSFVenom
-- Clonando website usando pywebcopy
-- Conhecendo as Bibliotecas para Hackers
-- Conclusão
+## Module 5
+- Using Tkinter to create GUIs
+- Creating Modulo in Metasploit
+- Creating a simple PE Scan
+- Creating a simple backdoor
+- Running a shellcode with Python and MSFVenom
+- Cloning website using pywebcopy
+- Knowing the Libraries for Hackers
+- Conclusion
 
 
 ## Certified Red Team Python Analyst (CRPYA)
