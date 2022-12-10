@@ -1,13 +1,13 @@
-#def helloworld(meunome, idade):
- #   print(f'Olá {meunome}, sua idade é {idade}')
-#def helloworld2(meunome2, idade2):
- #   print("f'Ola {meunome2}, sua idade é {idade2}")
-#meunome2 = input("blalbalbal")
-#idade2 = input("hfehfhfhe")
-#meunome = str(input("Digite o seu nome: "))
-#idade = input("Digite a sua idade: ")
-#helloworld(meunome, idade)
-#helloworld2(meunome2, idade2)
+def helloworld(meunome, idade):
+    print(f'Olá {meunome}, sua idade é {idade}')
+def helloworld2(meunome2, idade2):
+    print("f'Ola {meunome2}, sua idade é {idade2}")
+meunome2 = input("blalbalbal")
+idade2 = input("hfehfhfhe")
+meunome = str(input("Digite o seu nome: "))
+idade = input("Digite a sua idade: ")
+helloworld(meunome, idade)
+helloworld2(meunome2, idade2)
 
 def calcular_pagamento(qtdhoras, valorhora, qtdtaxas):
     horas = float(qtdhoras)
