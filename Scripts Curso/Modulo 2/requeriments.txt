@@ -18,7 +18,7 @@ crypto==1.4.1
 cryptography==37.0.2
 delegator.py==0.1.1
 et-xmlfile==1.1.0
-fake-useragent==0.1.11
+fake-useragent==1.2.1
 Flask==2.1.2
 frida==15.1.22
 frida-tools==10.6.1
